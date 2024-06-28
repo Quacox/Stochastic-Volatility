@@ -182,4 +182,6 @@ For any questions or further information, please feel free to reach out to me on
 
 [Mean-Reverting Volatility](https://www.investopedia.com/terms/m/meanreversion.asp)
 
+[Discretization of Euler Scheme](https://www.wias-berlin.de/people/bayerc/files/euler_talk_handout.pdf)
+
 

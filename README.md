@@ -17,9 +17,9 @@ In financial markets, volatility is not constant but varies over time. Tradition
 
 - **Monte Carlo simulation**: Employ Monte Carlo methods to simulate price paths and calculate option prices under the Heston model.
 
-# Comprehensive SV Model
+# Comprehensive Heston Model
 
-## Explenations
+## Explanations
 The Heston model is a cornerstone of stochastic volatility modeling in finance, providing a more realistic depiction of market behavior by incorporating mean-reverting stochastic volatility. This model addresses the limitations of constant volatility assumptions in traditional models like Black-Scholes. Key features and implementation details of the Heston model in this project include
 
 ## Important Points 
@@ -56,6 +56,9 @@ $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
   - Includes functions for simulating asset paths, calculating option prices, and estimating model parameters.
 
 By incorporating the Heston model into this project, we aim to provide a robust tool for analyzing and simulating the behavior of financial markets under more realistic conditions of stochastic volatility.
+
+# Parameter Estimation
+
 
 
 

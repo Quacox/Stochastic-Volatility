@@ -57,6 +57,5 @@ $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 
 By incorporating the Heston model into this project, we aim to provide a robust tool for analyzing and simulating the behavior of financial markets under more realistic conditions of stochastic volatility.
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.codearmo.com/media/uploads/2021/01/09/heston_volatility_paths_simulation_resize.jpg">
-</picture>
+For more details, check out the [full documentation](https://github.com/Quacox/Stochastic-Volatility/edit/main/README.md).
+

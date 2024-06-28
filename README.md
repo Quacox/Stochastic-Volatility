@@ -118,3 +118,22 @@ In this section, we compare the performance of the Heston model with the Black-S
    - **Accuracy**: Compare model-generated prices with observed market prices.
    - **Robustness**: Assess model sensitivity to changes in market conditions and parameter estimates.
    - **Risk Management**: Evaluate the models' effectiveness in managing portfolio risk and hedging strategies.
+ 
+# Monte Carlo Simulation
+
+Monte Carlo simulation is a powerful technique used in finance to simulate the behavior of asset prices and calculate option prices under stochastic volatility models like the Heston model. In this section, we employ Monte Carlo methods to simulate price paths and derive option prices, providing insights into the dynamics and risk profiles of financial instruments.
+
+## Methodology
+
+- **Heston Model Simulation**:
+   - Implement the Heston model dynamics using stochastic differential equations (SDEs) like referenced before.
+
+- **Monte Carlo Simulation Steps**:
+   - Generate random paths for the asset price $S_t$ and volatility $v_t$ using the Heston model dynamics.
+   - Iterate over multiple simulations to capture the distribution of possible outcomes.
+
+- **Option Pricing**:
+   - Price European options using the simulated asset price paths and volatility.
+   - Use the payoff function of the option (e.g., call or put) to calculate option prices at maturity.
+
+

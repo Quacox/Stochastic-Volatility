@@ -27,14 +27,10 @@ The Heston model is a cornerstone of stochastic volatility modeling in finance, 
 - **Mean-Reverting Volatility**: The Heston model assumes that the variance of an asset price is not constant but follows a stochastic process that tends to revert to a long-term mean. This captures the empirically observed phenomenon of volatility clustering in financial markets.
 
 - **Stochastic Differential Equations**: The asset price \( S_t \) and its variance \( v_t \) evolve according to the following dynamics:
+$dS_t = \mu*S_t*dt + \sqrt{v_t}*S_t*dW_t^2$
 
 
-  \[
-  dS_t = \mu S_t \, dt + \sqrt{v_t} S_t \, dW_t^S
-  \]
-  \[
-  dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v
-  \]
+$dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 
   - \( \mu \): Drift rate of the asset price.
   - \( \kappa \): Rate at which volatility reverts to its long-term mean.

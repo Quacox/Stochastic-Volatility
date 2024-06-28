@@ -145,8 +145,7 @@ By integrating theory with practical implementation in Python, this project prov
 
 ## Contact
 
-
-For any questions or further information, please feel free to reach out to me on [LinkedIn :](https://www.linkedin.com/in/maxime-le-floch-1ba66a1b1/) or by [Maxime Le Floch](mailto:maximebeguin02@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) .
+For any questions or further information, please feel free to reach out to me on [LinkedIn :](https://www.linkedin.com/in/maxime-le-floch-1ba66a1b1/) or by mail : [Maxime Le Floch](mailto:maximebeguin02@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) .
 
 
 ## Bibliography Use 

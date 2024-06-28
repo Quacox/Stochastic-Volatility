@@ -35,15 +35,15 @@ $dS_t = \mu S_t dt + \sqrt{v_t} S_t dW_t^S$
 $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 </p>
 
-&ensp;&ndash; $\mu$ : Drift rate of the asset price.
+&ensp;&dash; $\mu$ : Drift rate of the asset price.
 
 &ensp;&dash; $\kappa$ : Rate at which volatility reverts to its long-term mean.
 
-&ensp; &ndash; $\theta$ : Long-term mean level of the variance.
+&ensp;&dash; $\theta$ : Long-term mean level of the variance.
 
-&ensp; &ndash;  $\sigma$ : Volatility of the variance (volatility of volatility).
+&ensp;&dash;  $\sigma$ : Volatility of the variance (volatility of volatility).
 
-&ensp; &ndash; $W_t^S$ and $W_t^v$ : Correlated Wiener processes with correlation $\rho$.
+&ensp;&dash; $W_t^S$ and $W_t^v$ : Correlated Wiener processes with correlation $\rho$.
 
 - **Model Assumptions**:
   - The returns on the asset follow a geometric Brownian motion.

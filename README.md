@@ -26,7 +26,7 @@ The Heston model is a cornerstone of stochastic volatility modeling in finance, 
 
 - **Mean-Reverting Volatility**: The Heston model assumes that the variance of an asset price is not constant but follows a stochastic process that tends to revert to a long-term mean. This captures the empirically observed phenomenon of volatility clustering in financial markets.
 
-- **Stochastic Differential Equations**: The asset price \( S_t \) and its variance \( v_t \) evolve according to the following dynamics:
+- **Stochastic Differential Equations**: The asset price $ S_t $ and its variance $ v_t $ evolve according to the following dynamics:
   
 <p align="center">
 $dS_t = \mu S_t dt + \sqrt{v_t} S_t dW_t^S$
@@ -35,11 +35,12 @@ $dS_t = \mu S_t dt + \sqrt{v_t} S_t dW_t^S$
 <p align="center">
 $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 </p>
-  - \( \mu \): Drift rate of the asset price.
-  - \( \kappa \): Rate at which volatility reverts to its long-term mean.
-  - \( \theta \): Long-term mean level of the variance.
-  - \( \sigma \): Volatility of the variance (volatility of volatility).
-  - \( W_t^S \) and \( W_t^v \): Correlated Wiener processes with correlation \( \rho \).
+
+  - $\mu $: Drift rate of the asset price.
+  - $ \kappa $: Rate at which volatility reverts to its long-term mean.
+  - $ \theta $: Long-term mean level of the variance.
+  - $ \sigma $: Volatility of the variance (volatility of volatility).
+  - $W_t^S$ and $ W_t^v $: Correlated Wiener processes with correlation $ \rho $.
 
 - **Model Assumptions**:
   - The returns on the asset follow a geometric Brownian motion.

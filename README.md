@@ -62,6 +62,54 @@ By incorporating the Heston model into this project, we aim to provide a robust 
 
 # Parameter Estimation
 
+Parameter estimation is a crucial step in implementing the Heston model for stochastic volatility in financial engineering. In this project, we leverage historical market data to accurately estimate the model parameters using advanced statistical techniques, primarily focusing on maximum likelihood estimation (MLE).
 
+## Key Features
+
+- **Data Collection**:
+
+   - Gather historical data of the underlying asset's prices and optionally its volatility. This data serves as the basis for calibrating the Heston model.
+
+- **Model Specification**:
+   - Define the Heston model parameters:
+     - $\mu$: Drift rate of the asset price.
+     - $\kappa$: Rate at which volatility reverts to its long-term mean.
+     - $\theta$: Long-term mean level of the variance.
+     - $\sigma$: Volatility of the variance (volatility of volatility).
+     - $\rho$: Correlation between Wiener processes.
+
+- **Estimation Techniques**:
+   - **Maximum Likelihood Estimation (MLE)**:
+     - Fit the Heston model to historical data by maximizing the likelihood function. MLE identifies parameter values that make the observed data most probable under the Heston model assumptions.
+   
+   - **Alternative Techniques**:
+     - Explore other statistical methods such as Method of Moments or Bayesian estimation for robust parameter estimation, depending on the nature of available data and model complexity.
+
+- **Implementation in Python**:
+   - Implement the estimation process using Python and relevant libraries (e.g., `scipy`, `numpy`, `pandas`):
+   
+     ```python
+     import scipy.optimize as opt
+
+     def heston_likelihood(parameters, data):
+         # Define likelihood function based on Heston model
+         # Return negative log-likelihood for minimization
+
+     # Example: Fit Heston model using MLE
+     initial_guess = [0.1, 0.5, 0.02, 0.2, -0.5]  # Initial guess for parameters
+     result = opt.minimize(heston_likelihood, initial_guess, args=(historical_data,))
+     heston_parameters = result.x
+     ```
+
+- **Validation and Sensitivity Analysis**:
+   - Validate estimated parameters through goodness-of-fit tests and sensitivity analysis. Assess the robustness of the model by varying input assumptions and data sets.
+
+### Benefits of Parameter Estimation
+
+- **Enhanced Model Accuracy**: Accurate estimation of Heston model parameters improves the model's ability to reflect real market conditions and asset price behaviors.
+- **Risk Management**: Better parameter estimates facilitate more effective risk management strategies, particularly in pricing derivatives and managing portfolio volatility.
+- **Decision Support**: Provides valuable insights for investment decisions based on comprehensive modeling of asset price dynamics.
+
+By employing rigorous parameter estimation techniques, this project aims to enhance understanding and application of stochastic volatility models in financial analysis and decision-making.
 
 

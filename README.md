@@ -184,4 +184,5 @@ For any questions or further information, please feel free to reach out to me on
 
 [Discretization of Euler Scheme](https://www.wias-berlin.de/people/bayerc/files/euler_talk_handout.pdf)
 
+[Quant Project on HEston Model](https://blog.quantinsti.com/heston-model/)
 

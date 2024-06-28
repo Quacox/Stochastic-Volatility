@@ -37,7 +37,7 @@ $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 
 &ensp;&ndash; $\mu$ : Drift rate of the asset price.
 
-&ensp; &dash; $\kappa$ : Rate at which volatility reverts to its long-term mean.
+&ensp;&dash; $\kappa$ : Rate at which volatility reverts to its long-term mean.
 
 &ensp; &ndash; $\theta$ : Long-term mean level of the variance.
 

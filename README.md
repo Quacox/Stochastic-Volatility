@@ -3,7 +3,9 @@
 # Overview 
 Hello, 
 
-You may already know about my project, but for those who don't, I'm a Masters student in financial engineering and I've set myself a challenge called <ins>**OneWeekOneProject**</ins>. Each week, I dive deep into a new topic within the vast world of market finance and quantitative methods. This week's focus is on Stochastic Volatility Modeling and its implementation in Python.
+For more details, check out the [full documentation](https://github.com/Quacox?tab=repositories).
+
+You may already know about my project, but for those who don't, I'm a Masters student in financial engineering and I've set myself a challenge called [**full documentation**](https://github.com/Quacox?tab=repositories). Each week, I dive deep into a new topic within the vast world of market finance and quantitative methods. This week's focus is on Stochastic Volatility Modeling and its implementation in Python.
 
 In financial markets, volatility is not constant but varies over time. Traditional models often assume constant volatility, but real market behavior tells a different story. Stochastic Volatility (SV) models capture this dynamic nature, providing a more accurate representation of market conditions.
 
@@ -57,5 +59,5 @@ $dv_t = \kappa (\theta - v_t) \, dt + \sigma \sqrt{v_t} \, dW_t^v$
 
 By incorporating the Heston model into this project, we aim to provide a robust tool for analyzing and simulating the behavior of financial markets under more realistic conditions of stochastic volatility.
 
-For more details, check out the [full documentation](https://github.com/Quacox/Stochastic-Volatility/edit/main/README.md).
+
 

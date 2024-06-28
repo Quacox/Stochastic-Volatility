@@ -85,22 +85,6 @@ Parameter estimation is a crucial step in implementing the Heston model for stoc
    - **Alternative Techniques**:
      - Explore other statistical methods such as Method of Moments or Bayesian estimation for robust parameter estimation, depending on the nature of available data and model complexity.
 
-- **Implementation in Python**:
-   - Implement the estimation process using Python and relevant libraries (e.g., `scipy`, `numpy`, `pandas`):
-   
-     ```python
-     import scipy.optimize as opt
-
-     def heston_likelihood(parameters, data):
-         # Define likelihood function based on Heston model
-         # Return negative log-likelihood for minimization
-
-     # Example: Fit Heston model using MLE
-     initial_guess = [0.1, 0.5, 0.02, 0.2, -0.5]  # Initial guess for parameters
-     result = opt.minimize(heston_likelihood, initial_guess, args=(historical_data,))
-     heston_parameters = result.x
-     ```
-
 - **Validation and Sensitivity Analysis**:
    - Validate estimated parameters through goodness-of-fit tests and sensitivity analysis. Assess the robustness of the model by varying input assumptions and data sets.
 
@@ -112,4 +96,25 @@ Parameter estimation is a crucial step in implementing the Heston model for stoc
 
 By employing rigorous parameter estimation techniques, this project aims to enhance understanding and application of stochastic volatility models in financial analysis and decision-making.
 
+# Model Comparison
 
+In this section, we compare the performance of the Heston model with the Black-Scholes model, focusing on their ability to accurately represent and predict asset price dynamics under different market conditions.
+
+## Methodology
+
+- **Model Specifications**:
+   - **Heston Model**:
+     - Incorporates stochastic volatility, capturing the mean-reverting nature of volatility in financial markets.
+     - Parameters include $\mu$, $\kappa$, $\theta$, $\sigma$, and $\rho$, derived through parameter estimation techniques such as maximum likelihood estimation (MLE).
+
+   - **Black-Scholes Model**:
+     - Assumes constant volatility over time, providing a baseline for pricing derivatives under the assumption of efficient markets.
+     - Parameterized by the asset price, volatility, risk-free rate, time to maturity, and strike price.
+
+- **Backtesting on Historical Data**:
+   - Utilize historical market data to simulate and compare the performance of both models in pricing options and predicting asset prices.
+
+- **Evaluation Metrics**:
+   - **Accuracy**: Compare model-generated prices with observed market prices.
+   - **Robustness**: Assess model sensitivity to changes in market conditions and parameter estimates.
+   - **Risk Management**: Evaluate the models' effectiveness in managing portfolio risk and hedging strategies.

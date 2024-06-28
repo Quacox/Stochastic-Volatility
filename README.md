@@ -19,7 +19,6 @@ In financial markets, volatility is not constant but varies over time. Tradition
 
 # Comprehensive Heston Model
 
-## Explanations
 The Heston model is a cornerstone of stochastic volatility modeling in finance, providing a more realistic depiction of market behavior by incorporating mean-reverting stochastic volatility. This model addresses the limitations of constant volatility assumptions in traditional models like Black-Scholes. Key features and implementation details of the Heston model in this project include
 
 ## Important Points 

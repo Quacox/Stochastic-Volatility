@@ -186,5 +186,5 @@ For any questions or further information, please feel free to reach out to me on
 
 [Quant Project on HEston Model](https://blog.quantinsti.com/heston-model/)
 
-[Barrier Options] (https://bookdown.org/maxime_debellefroid/MyBook/barrier-options.html#knock-in-options)
+[Barrier Options](https://bookdown.org/maxime_debellefroid/MyBook/barrier-options.html#knock-in-options)
 

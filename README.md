@@ -72,11 +72,11 @@ Parameter estimation is a crucial step in implementing the Heston model for stoc
 
 - **Model Specification**:
    - Define the Heston model parameters:
-     - $\mu$: Drift rate of the asset price.
-     - $\kappa$: Rate at which volatility reverts to its long-term mean.
-     - $\theta$: Long-term mean level of the variance.
-     - $\sigma$: Volatility of the variance (volatility of volatility).
-     - $\rho$: Correlation between Wiener processes.
+     - $\mu$ : Drift rate of the asset price.
+     - $\kappa$ : Rate at which volatility reverts to its long-term mean.
+     - $\theta$ : Long-term mean level of the variance.
+     - $\sigma$ : Volatility of the variance (volatility of volatility).
+     - $\rho$ : Correlation between Wiener processes.
 
 - **Estimation Techniques**:
    - **Maximum Likelihood Estimation (MLE)**:

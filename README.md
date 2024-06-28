@@ -136,4 +136,28 @@ Monte Carlo simulation is a powerful technique used in finance to simulate the b
    - Price European options using the simulated asset price paths and volatility.
    - Use the payoff function of the option (e.g., call or put) to calculate option prices at maturity.
 
+# Conclusion
+
+In this project, we have explored and implemented the Heston model for stochastic volatility modeling in financial engineering. By leveraging advanced techniques such as parameter estimation, model comparison, and Monte Carlo simulation, we aimed to enhance our understanding of asset price dynamics and improve derivative pricing and risk management strategies.
+
+By integrating theory with practical implementation in Python, this project provides a robust foundation for understanding and applying stochastic volatility models in financial engineering. The insights gained from parameter estimation, model comparison, and Monte Carlo simulation underscore the importance of dynamic modeling approaches in capturing market complexities and supporting informed financial decisions.
+
+
+## Contact
+
+
+For any questions or further information, please feel free to reach out to me on [**LinkedIn :**](https://www.linkedin.com/in/maxime-le-floch-1ba66a1b1/) or by [**Mail :**]  : (maximebeguin02@gmail.com)
+
+
+## Bibliography Use 
+
+https://homepage.ntu.edu.tw/~jryanwang/courses/Financial%20Computation%20or%20Financial%20Engineering%20(graduate%20level)/FE_Ch04%20Binomial%20Tree%20Model.pdf
+
+https://en.wikipedia.org/wiki/Binomial_options_pricing_model
+
+https://www.jeroenbouma.com/articles/binomial-trees
+
+https://www.scirp.org/journal/paperinformation?paperid=77675
+
+
 

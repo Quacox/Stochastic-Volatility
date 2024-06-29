@@ -188,3 +188,5 @@ For any questions or further information, please feel free to reach out to me on
 
 [Barrier Options](https://bookdown.org/maxime_debellefroid/MyBook/barrier-options.html#knock-in-options)
 
+[Options Data from Yahoo Finance](https://github.com/ranaroussi/yfinance)
+
